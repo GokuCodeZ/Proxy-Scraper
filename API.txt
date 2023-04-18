@@ -1,0 +1,15 @@
+                                             RAW DATA
+_____________________________________________________________________________________________________________________________
+
+https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all
+https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc
+https://www.proxy-list.download/api/v1/get?type=http&anon=elite&country=US
+https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search
+https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
+https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt
+https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt
+https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt
+https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt
+https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-https
+
+______________________________________________________________________________________________________________________________
