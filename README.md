@@ -26,6 +26,4 @@ python3 scraper.py
 ```
 It will scrape proxies from different sources.
 
-Author - *! . GoKu xDᵂˣ#0077*
-
 ⭐**Please Consider Starring The Repo**⭐
