@@ -12,7 +12,7 @@ class Main():
     def __init__(self):
         self.api = "API.txt"
         self.file = "data/scraped_proxies.txt"
-        self.title = "Proxy Scraper | 6+ API's | Open Source"
+        self.title = "Proxy Scraper | 6 API's | Open Source"
         self.start_title = "PRESS ENTER TO START."
         self.author = "𝐖𝐗〢・GoKu xD . 🥀†¹ⱽ¹#0077"
 
