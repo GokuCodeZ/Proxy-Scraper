@@ -5,7 +5,7 @@ import threading
 import os, sys
 from colorama import Fore, Style, init
 from pystyle import Colors, Write, Center, Anime, System, Colorate
-import random, requests
+import random, requests, ctypes
 import base64
 
 class Main():
@@ -26,10 +26,6 @@ class Main():
 
     def __scrape__(self):
         APIS = [
-            # "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
-            # "https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc",
-            # "https://www.proxy-list.download/api/v1/get?type=http&anon=elite&country=US",
-            # "https://free-proxy-list.com/?page=&port=&type%5B%5D=http&type%5B%5D=https&up_time=0&search=Search",
             "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
             "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
             "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
@@ -41,7 +37,7 @@ class Main():
         randomized_api = random.choice(APIS)
 
         try:
-            os.system("title "+self.title)
+            ctypes.windll.kernel32.SetConsoleTitleW(self.title)
             API_IN_USE = randomized_api
             print(f"[{datetime.now()}] || [{Fore.LIGHTBLACK_EX}DEBUG{Fore.WHITE}] || [{Fore.GREEN}API{Fore.WHITE}] API IN USE : {API_IN_USE}")
             session = requests.Session()
